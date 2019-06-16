@@ -1,3 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("img/main-background.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wrapper-box {
+  width: 49%;
+  padding: 0 10px;
+}
+
+.wrapper-quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper-quote p {
+  text-align: center;
+}
+
+.wrapper-quote p, .wrapper-quote span {
+  font-family: 'Gugi'
+}
+
+.btn {
+  display: inline-block;
+  color: #fff;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 14px;
+  line-height: 1.5;
+  border-radius: .25rem;
+}
+
+#new-quote:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+#tweet-quote:hover {
+  background-color: #138496;
+  border-color: #117a8b;
+}
+
+#new-quote {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+#tweet-quote {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.wrapper-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
 .App {
   text-align: center;
 }
