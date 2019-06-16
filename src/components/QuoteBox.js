@@ -63,15 +63,11 @@ class QuoteBox extends React.Component {
                 <div id="quote-box">
                     <div className="wrapper-quote">
                         <p id="text">
-                        {
-                            this.didDataArrive && '\"' + this.state.quotes[this.counter].quote + '\"'
-                        }
+                            {this.didDataArrive && '\"' + this.state.quotes[this.counter].quote + '\"'}
                         </p>
                         <span id="author">
-                        {
-                            this.didDataArrive && '\"' + this.state.quotes[this.counter].author + '\"'  
-                        }
-                         </span>
+                            {this.didDataArrive && '\"' + this.state.quotes[this.counter].author + '\"'}
+                        </span>
                     </div>
                     <div className="wrapper-buttons">
                         <div className="options">
